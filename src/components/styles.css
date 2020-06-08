@@ -1,0 +1,45 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    width: 245px;
+}
+
+.today{
+    color: #3296c8;
+    font-weight: bold;
+    background-color: blanchedalmond;
+}
+.empty{
+    color:  gray;
+    background-color: #efefef;
+}
+.calendar-month{
+    background-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+}
+.calendar-year{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+}
+.week-day{
+    text-align: center;
+}
+.month-list{
+    text-align: center;
+    width: 100%;
+}
+.year-list{
+    text-align: center;
+    width: 100%;
+}
+.calendar-month__label-year{
+    text-align: left;
+}
