@@ -17,5 +17,9 @@ module.exports = {
                   'css-loader'
                 ]
         }]
+    },
+    devtool: 'eval-cheap-module-source-map',
+    devServer: {
+        contentBase: path.join(__dirname, 'public')
     }
 };
