@@ -194,8 +194,10 @@ setYear(year){
          return(
              <div>
                <div className="calendar-month">
-                 <span className="calendar-month__label-month" onClick={e=>{this.showMonth()}}>{this.month()}</span>
-                 <span className="calendar-month__label-year" onClick={e=>{this.showYear()}}>{this.year()}</span>
+                  <div>
+                    <span className="calendar-month__label-month" onClick={e=>{this.showMonth()}}>{this.month()}</span>
+                    <span className="calendar-month__label-year" onClick={e=>{this.showYear()}}>{this.year()}</span>
+                  </div>
                </div>{this.state.showYearTable&&(
                      <table>
                         <thead>
