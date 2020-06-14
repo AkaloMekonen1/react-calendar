@@ -5,7 +5,7 @@ import './styles.css';
 export default class Calendar extends React.Component {
  constructor(){
    super();
-   this.firstDayOfMonth = this.firstDayOfMonth.bind(this);
+  //  this.firstDayOfMonth = this.firstDayOfMonth.bind(this);
    this.daysInMonth = this.daysInMonth.bind(this);
    this.currentDay = this.currentDay.bind(this);
    this.month = this.month.bind(this);
@@ -25,7 +25,7 @@ export default class Calendar extends React.Component {
    } 
  }
 //returns which day in week the month start  
-    firstDayOfMonth(){
+    firstDayOfMonth = ()=>{
       let dateObject = this.state.dateObject;
       let firstDay = moment(dateObject).startOf('month').format('d');
       return firstDay
